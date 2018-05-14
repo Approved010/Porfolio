@@ -1,5 +1,6 @@
 .navbar {
 
+    position: fixed;
     overflow: hidden;
     background-color: black;
     margin-left: -10px;
@@ -78,20 +79,15 @@
 
 }
 
-.container{
-
-    float: none;
-
-}
-
 .first_div{
 
     text-align: center;
-    width: 100%;
+    width: 960px;
+    margin: 0 auto;
 
- }
+}
 
-p.schuine_text{
+.schuine_text{
 
     text-align: center;
     font-style: italic;
@@ -101,9 +97,19 @@ p.schuine_text{
 
 }
 
+.schuine_text1{
+
+    text-align: center;
+    font-style: italic;
+    font-family: Lato;
+    font-weight: bold;
+    color: dimgray;
+    font-size: 15px;
+
+}
+
 p{
 
-    display: block;
     margin: auto;
     text-align: left;
     width: 750px;
@@ -111,11 +117,69 @@ p{
 
 }
 
-.pic{
+.profile-pic {
 
-    width: 250px;
-    height: 250px;
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }
+
+.text-profile{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.date{
+
+    list-style: none;
+    color: #757575;
+    text-align: left;
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.date li{
+
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+
+}
+
+span.sold_out{
+
+    background-color: #f44336;
+    color: white;
+    box-sizing: inherit;
+    padding: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-left: 16px;
+
+}
+
+.second_div{
+
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: -10px;
+
+}
+
+.mini_div{
+
+    width: 10px;
+    border: 1px solid white;
+
+}
+
+
 
