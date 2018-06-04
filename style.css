@@ -1,10 +1,19 @@
+body{
+
+    margin: 0;
+
+}
+
 .navbar {
 
     position: fixed;
     overflow: hidden;
-    background-color: black;
-    margin-left: -10px;
-    margin-top: -10px;
+    background-image: url("4c7cab0beab60c138e1ed84d96596d54.gif");
+    background-position: center;
+    padding-left: -10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     width: 100%;
 
 }
@@ -24,6 +33,7 @@
     float: left;
     overflow: hidden;
     background-color: transparent;
+
 }
 
 .dropdown .dropbtn {
@@ -49,11 +59,10 @@
 .dropdown-content {
 
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 0;
 
 }
 
@@ -76,6 +85,20 @@
 .dropdown:hover .dropdown-content {
 
     display: block;
+
+}
+
+.foto_slide{
+
+    margin: -10px;
+    padding: 0;
+    background-image: url("giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 950px;
+    margin: 0 auto;
+
 
 }
 
@@ -105,6 +128,17 @@
     font-weight: bold;
     color: dimgray;
     font-size: 15px;
+
+}
+
+.schuine_text2{
+
+    text-align: center;
+    font-style: italic;
+    font-family: Lato;
+    font-weight: bold;
+    color: dimgray;
+    font-size: 20px;
 
 }
 
@@ -165,21 +199,170 @@ span.sold_out{
 
 .second_div{
 
+    max-width: 100%;
     text-align: center;
-    width: 100%;
     background-color: black;
     color: white;
-    margin-top: 20px;
-    margin-left: -10px;
+    margin: 0 auto;
 
 }
 
-.mini_div{
+.box{
 
-    width: 10px;
-    border: 1px solid white;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
+.mini_box{
+
+    max-width: 250px;
+
+}
+
+.text_box{
+
+    color: black;
+    background-color: white;
+    padding: 1em;
+
+}
+
+.titel{
+
+    font-weight: bolder;
+    font-size: 20px;
+    max-width: 200px;
+
+}
+
+.text2{
+
+    font-family: Lato;
+    color: dimgray;
+    font-size: 16px;
+    max-width: 200px;
+
+}
+
+.text{
+
+    max-width: 200px;
+
+}
+
+.buy{
+
+    border: none;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 100px;
+    height: 50px;
+
+}
+
+.buy:hover{
+
+    color: white;
+    background-color: grey;
+
+}
+
+.contact{
+
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.contact_content{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.name{
+
+    border: 1px solid lightgrey;
+    width: 300px;
+    height: 40px;
+
+}
+
+.email{
+
+    border: 1px solid lightgrey;
+    width: 300px;
+    height: 40px;
+
+}
+
+.content_form{
+
+    border: 1px solid lightgrey;
+    width: 700px;
+    height: 40px;
+
+}
+
+.submit{
+
+    border: 1px solid transparent;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 90px;
+    padding: 10px;
+
+}
+
+.submit:hover{
+
+    color: black;
+    background-color: lightgrey;
+
+}
+
+ul{
+
+    list-style: none;
+    display: table;
+
+}
+
+.para{
+
+    background-image: url("36090a9929e8b4c105d738009f44041c.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 600px;
+    margin: 0 auto;
 
 
+}
+
+footer{
+
+    text-align: center;
+
+}
+
+.copyright{
+
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+
+}
